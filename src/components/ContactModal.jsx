@@ -82,7 +82,7 @@ function ContactModal({ isOpen, onClose }) {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          access_key: 'YOUR_ACCESS_KEY', // Get free key at web3forms.com
+          access_key: '3d7046a9-3f7c-454c-a560-56a3c149801e', 
           subject: `New Inquiry from ${formData.name} - KWM Consulting`,
           from_name: 'KWM Consulting Website',
           name: formData.name,
