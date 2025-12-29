@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--charcoal);
+  color: var(--warm-white);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  width: 150px;
+  height: auto;
+  opacity: 0.9;
+}
+
+.footer p {
+  margin: 8px 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.footer-tagline {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  color: var(--sage);
+}
+

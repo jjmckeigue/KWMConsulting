@@ -1,0 +1,77 @@
+.cta {
+  background: linear-gradient(135deg, var(--forest-dark) 0%, var(--forest) 100%);
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  max-width: none;
+  margin: 0;
+}
+
+.cta::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 60%;
+  height: 200%;
+  background: radial-gradient(circle, var(--sage) 0%, transparent 60%);
+  opacity: 0.15;
+}
+
+.cta-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cta h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.cta h2::after {
+  background: linear-gradient(90deg, var(--gold), var(--gold-light));
+}
+
+.cta p {
+  font-size: 1.15rem;
+  margin-bottom: 30px;
+  opacity: 0.95;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 36px;
+  background: linear-gradient(135deg, var(--gold), var(--gold-light));
+  color: var(--forest-dark);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(196, 163, 90, 0.3);
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(196, 163, 90, 0.5);
+}
+
+.cta-button svg {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+
+.cta-button:hover svg {
+  transform: translateX(5px);
+}
+
