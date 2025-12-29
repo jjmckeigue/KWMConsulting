@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <div className="bg-pattern" />
-      <Header />
+      <Header onContactClick={openContact} />
       <main>
         <About />
         <Services />
