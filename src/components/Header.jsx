@@ -5,7 +5,7 @@ function Header({ onContactClick }) {
     <header className="header">
       <div className="header-content">
         <a href="/" className="logo">
-          <img src="/logo.png" alt="KWM Consulting Logo" />
+          <img src="/logo-yellow.png" alt="KWM Consulting Logo" />
         </a>
         <p className="tagline">
           Strategic Advisory for Gas Detection & Industrial Safety Markets

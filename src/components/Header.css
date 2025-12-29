@@ -1,11 +1,11 @@
 .header {
-  background: linear-gradient(180deg, #f8f9f5 0%, #eef2e6 100%);
+  background: #f0edc8;
   color: var(--charcoal);
   padding: 16px 24px;
   position: sticky;
   top: 0;
   z-index: 100;
-  border-bottom: 1px solid rgba(107, 142, 78, 0.2);
+  border-bottom: 1px solid rgba(196, 163, 90, 0.25);
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.04);
 }
 

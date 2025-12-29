@@ -39,7 +39,7 @@ function About() {
       <div className="about-content">
         <div className="about-text">
           <p>
-            KWM Consulting was founded by Kevin McKeigue to help companies in the
+            KWM Consulting was founded to help companies in the
             gas detection and safety instrumentation markets navigate growth,
             innovation, and complexity.
           </p>
