@@ -11,8 +11,8 @@ const experiences = [
   },
   {
     icon: BuildingIcon,
-    title: 'Industrial & Energy Markets',
-    description: 'Oil & gas, refrigeration, marine, utilities, manufacturing, and environmental monitoring applications.'
+    title: 'Industrial, Energy & Commercial Markets',
+    description: 'Oil & gas, refrigeration, marine, utilities, manufacturing, building automation, and environmental monitoring applications.'
   },
   {
     icon: DollarIcon,

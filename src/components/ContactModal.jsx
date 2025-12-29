@@ -107,7 +107,7 @@ function ContactModal({ isOpen, onClose }) {
     } catch (error) {
       // Fallback to mailto if API fails
       console.log('Form API unavailable, falling back to mailto')
-      const mailtoLink = `mailto:kevin.mckeigue@kwmconsulting.com?subject=${encodeURIComponent(`Inquiry from ${formData.name}${formData.company ? ` - ${formData.company}` : ''}`)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\nCompany: ${formData.company || 'Not provided'}\nInquiry Type: ${formData.inquiryType || 'General'}\n\nMessage:\n${formData.message}`)}`
+      const mailtoLink = `mailto:kwmconsultant@gmail.com?subject=${encodeURIComponent(`Inquiry from ${formData.name}${formData.company ? ` - ${formData.company}` : ''}`)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\nCompany: ${formData.company || 'Not provided'}\nInquiry Type: ${formData.inquiryType || 'General'}\n\nMessage:\n${formData.message}`)}`
       window.location.href = mailtoLink
       setStatus('success')
     }
@@ -245,7 +245,7 @@ function ContactModal({ isOpen, onClose }) {
               </button>
               
               <p className="form-note">
-                Or email directly: <a href="mailto:kevin.mckeigue@kwmconsulting.com">kevin.mckeigue@kwmconsulting.com</a>
+                Or email directly: <a href="mailto:kwmconsultant@gmail.com">kwmconsultant@gmail.com</a>
               </p>
             </form>
           </>

@@ -11,7 +11,7 @@ function CTA({ onContactClick }) {
           operator in the gas detection and safety market?
         </p>
         <button onClick={onContactClick} className="cta-button">
-          Contact Kevin McKeigue
+          Contact KWM Consulting
           <ArrowIcon />
         </button>
       </div>
