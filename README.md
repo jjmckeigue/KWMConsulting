@@ -72,15 +72,6 @@ kwm-consulting/
 └── README.md              # This file
 ```
 
-## 🖼️ Adding Your Logo
-
-Place your logo file at:
-```
-public/logo.png
-```
-
-The logo will automatically be used in the header, footer, and as the favicon.
-
 ## 🛠️ Available Scripts
 
 | Command | Description |
@@ -99,50 +90,6 @@ This project is configured for easy deployment to popular hosting services:
 1. Push your code to GitHub
 2. Import your repository on [Vercel](https://vercel.com)
 3. Vercel will auto-detect Vite and configure the build
-
-### Netlify
-
-1. Push your code to GitHub
-2. Import your repository on [Netlify](https://netlify.com)
-3. Set build command: `npm run build`
-4. Set publish directory: `dist`
-
-### GitHub Pages
-
-1. Install gh-pages: `npm install --save-dev gh-pages`
-2. Add to package.json scripts: `"deploy": "gh-pages -d dist"`
-3. Run: `npm run build && npm run deploy`
-
-## 🎨 Customization
-
-### Colors
-
-Edit the CSS variables in `src/index.css`:
-
-```css
-:root {
-  --forest: #2d5016;
-  --forest-dark: #1f3a0f;
-  --sage: #6b8e4e;
-  --mint: #a8c896;
-  --cream: #faf9f5;
-  --gold: #c4a35a;
-  /* ... */
-}
-```
-
-### Fonts
-
-Fonts are loaded from Google Fonts in `index.html`. To change:
-1. Update the Google Fonts link in `index.html`
-2. Update the font-family declarations in the CSS files
-
-### Content
-
-- Edit component files in `src/components/` to update text content
-- Service cards are defined in `src/components/Services.jsx`
-- Experience cards are defined in `src/components/Experience.jsx`
-- Contact email is in `src/components/ContactModal.jsx`
 
 ## 📧 Contact Form Setup
 
