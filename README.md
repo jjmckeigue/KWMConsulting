@@ -87,20 +87,20 @@ This project is configured for easy deployment to popular hosting services:
 
 ### Vercel
 
-1. Push your code to GitHub
-2. Import your repository on [Vercel](https://vercel.com)
+1. Push code to GitHub
+2. Import repository on [Vercel](https://vercel.com)
 3. Vercel will auto-detect Vite and configure the build
 
 ## 📧 Contact Form Setup
 
-The contact form uses [Web3Forms](https://web3forms.com) for form submissions (free, no backend required).
+The contact form uses [Web3Forms](https://web3forms.com) for form submissions.
 
 ### Setup Steps:
 
 1. Go to [web3forms.com](https://web3forms.com)
-2. Enter your email and get a free access key
+2. Enter email and get a free access key
 3. Open `src/components/ContactModal.jsx`
-4. Replace `YOUR_ACCESS_KEY` with your actual key:
+4. Replace `YOUR_ACCESS_KEY` with actual key:
 
 ```javascript
 access_key: 'your-actual-key-here',
